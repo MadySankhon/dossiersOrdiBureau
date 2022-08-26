@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+nav{
+    padding: 15px;
+}
+nav ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo img{
+    width: 80px;
+}
+ul .link{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+ul .link a{
+    margin: 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+ul .link a:nth-child(1){
+    margin-left: 0;
+}
+.navInfo{
+    width: max-content;
+}
+.navInfo .phone{
+   display: flex;
+}
+.navInfo .phone i{
+    margin-right: 10px;
+}
+.navInfo .adresse{
+    text-align: end;
+}

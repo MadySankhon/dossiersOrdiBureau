@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+/* SECTION NAV */
+nav{
+    background-color:rgba(0, 0, 0, 0.966);
+    padding: 10px 30px;
+    padding-bottom: 0;
+    text-transform:uppercase ;
+    text-align: center;
+}
+nav .navInfo{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    color: white;
+}
+.menu-icon{
+    display: flex;
+}
+.menu{
+    text-decoration: underline overline;
+    font-size: 10px;
+    margin-right: 20px;
+}
+.iconBloc{
+    display: flex;
+}
+.iconBloc div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 5px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(46, 45, 45, 0.897);
+    border-radius: 50%;
+}
+.logo img{
+    width: 30%;
+}
+nav button:nth-child(1){
+    background-color: rgb(17, 17, 17);
+}
+nav button:nth-child(2){
+    background-color: rgb(131, 127, 127);
+}
+nav button{
+    padding: 5px;
+    text-transform: uppercase;
+    color: beige;
+    border: none;
+}
+nav .navLink{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+nav .navLink ul{
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+/* MAIN */
+
+main{
+    padding: 15px 50px;
+}
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    text-transform: capitalize;
+}
+header ul li{
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+header .btnRecherche{
+ border: 1px solid gray;
+ padding: 2px 15px;
+ border-radius: 50px;
+}
+header .btnRecherche input{
+    border: none;
+    width: 85%;
+}
+header .btnRecherche i{
+    text-align: end;
+}
+
+
+#sect1{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px 0;
+}
+.sect11, .sect12, #sect2 .image{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sect11{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 0 50px 20px;
+    background-image: url(./imgs/leonardo-caetano-Wu8N7z9OWTQ-unsplash.jpg);
+}
+.sect12{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 0 50px 20px;
+    background-image: url(./imgs/aussieactive-1brtlzDq-o8-unsplash.jpg)
+}
+#sect1 .categorie{
+    width: max-content;
+}
+#sect1 .categorie1 p{
+    max-width: max-content;
+    background-color: black;
+    margin: 2px;
+    color: white;
+    padding: 5px 10px;
+}
+#sect1 .categorie1 p:last-child{
+    text-transform: uppercase;
+}
+#sect1 .categorie1 p span{
+    color: gray;
+}
+#sect2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#sect2>div:nth-child(1){
+    margin:0 20px 0 0 ;
+}
+#sect2>div:nth-child(2){
+    margin: 0 20px 0 0;
+}
+#sect2 .image{
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+#sect21 .image{
+    background-image: url(./imgs/gabriel-ih6kX0wuqUI-unsplash\ \(1\).jpg);
+}
+#sect22 .image{
+    background-image: url(./imgs/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.jpg);
+}
+#sect23 .image{
+    background-image: url(./imgs/valentin-bonjour-TIdqm0Cl8UA-unsplash.jpg);
+}
+#sect2 .image .categorie{
+    display: inline-block;
+    font-size: 12px;
+    text-transform:uppercase;
+    padding: 5px 15px;
+    margin: 30px 0 0 15px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+#sect2 .titleImg{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#sect2 .blogger{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+#sect2 .blogger .date{
+    float: end;
+    text-align: end;
+    font-weight: bold;
+}
+#sect3{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#sect31 .categorie, #sect32 .categorie{
+    margin-bottom: 20px;
+    background-color: black;
+}
+#sect3 span{
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+}
+#sect3 li{
+    margin: 40px 0;
+    font-weight: bold;
+}
+.categorie{
+    display: inline-block;
+    font-size: 12px;
+    text-transform:uppercase;
+    padding: 5px 15px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+#sect32Contain > div{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#sect32Contain > div:nth-child(1){
+    margin-top: 20px;
+}
+#sect32Contain > div:nth-child(2){
+    margin: 30px 0;
+}
+#sect32 .image{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 95px;
+    position: relative;
+    margin-right: 10px;
+}
+#sect32 .image .categorie{
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    transform: translateY(-50%);
+}
+#sect32 .blogger{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+#sect32 .titleImg{
+    font-size: small;
+    padding-right: 25px;
+}
+#sect321 .image{
+    background-image:url(./imgs/qingbao-meng-01_igFr7hd4-unsplash.jpg) ;
+}
+#sect322 .image{
+    background-image:url(./imgs/v2osk-1Z2niiBPg5A-unsplash.jpg) ;
+}
+#sect323 .image{
+    background-image:url(./imgs/adam-kool-ndN00KmbJ1c-unsplash.jpg) ;
+}
+#sect33 > div{
+    min-height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+#sect331{
+    background-image: url(./imgs/stephane-yaich-Lipeie3AEXY-unsplash.jpg);
+    background-position: right center;
+}
+#sect332{
+    position: relative;
+    background-color: black;
+}
+#sect332 h5{
+    color: gray;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+#sect332 p{
+    color: rgb(48, 48, 43);
+    margin: 50px 20px;
+}
+#sect332 .categorie{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+

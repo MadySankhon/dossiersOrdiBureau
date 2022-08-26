@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo5</title>
+</head>
+<body>
+    <script>
+        
+        const examen = note =>{
+            let mension = "La note n'est pas correcte";
+            if(note > 0 && note<=20){
+                mension = "Mediocre";
+            }else if(note > 20 && note <= 30){
+                mension = `Insuffisant`;
+            }else if(note > 30 && note <= 55) {
+                mension = `Bien`;
+            }else if(note > 55 && note <= 60) {
+                mension = `Bravo`;
+            }else mension
+            return mension
+        }
+        console.log(examen(-50));
+        console.log(examen(02));
+        console.log(examen(25));
+        console.log(examen(38));
+        console.log(examen(56));
+        console.log(examen(68));
+    </script>
+</body>
+</html>

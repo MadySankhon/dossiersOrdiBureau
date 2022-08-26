@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./imgs/bg.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+header{
+    height: 100vh;
+    background-image: url(./imgs/femme-daffaire.png);
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+nav{
+    border: 1px solid rgba(0, 0, 0, 0.438);
+}
+nav.navbar.navbar-expand-lg{
+    padding:8px 30px !important;
+    background-color: transparent;
+
+}
+nav .navbar-brand img{
+    width: 250px !important;
+}
+nav .nav-item{
+    padding: 0 10px;
+}
+nav .nav-item .nav-link{
+    font-weight: 400;
+    color: blue;
+}
+.dif{
+    font-weight: bold !important;
+    text-decoration: underline;
+    color: black !important;
+}
+nav form .btn{
+    background-color: black;
+    color: white;
+}
+
+
+.sectHeader{
+    height: 65vh;
+}
+
+
+.sectHeader .sectHeader1{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectHeader .sectHeader1 h1{
+    font-weight: 400;
+}
+.sectHeader .sectHeader1 .watch{
+    background-color: black;
+    padding: 5px 5px;
+    width: max-content;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectHeader .sectHeader1 .watch p{
+    color: white;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .sectHeader .sectHeader1 .watch span:nth-child(1){
+    width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.sectHeader .sectHeader1 .watch span:nth-child(2){
+    width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+.sectHeader .sectHeader2{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.sectHeader .sectHeader2 > div{
+    width: 50%;
+    height: 40%;
+}
+.sectHeader .sectHeader2 .carousel-item{
+    max-height: 180px;
+    overflow-y: hidden;
+}
+.image{
+    background-color: rgba(128, 128, 128, 0.651);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.image p{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image p img{
+    /* width: 50%; */
+    height: 50px;
+}
+
+.mainSect1 .row > div{
+    max-block-size: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+}
+.mainSect1 .row > div:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.mainSect1 .row > div:nth-child(2){
+    border: white solid;
+    border-top: 0;
+    border-bottom: 0;
+}
+.mainSect1 .row div .img1{
+    width: 40%;
+}
+.mainSect1 .row div .img2{
+    width: 15%;
+}
+
+
+
+footer{
+    color: white;
+}
+footer ul{
+    list-style-type: none;
+}

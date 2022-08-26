@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo8</title>
+</head>
+<body>
+    <script>
+        const psX = [];
+        const psY = [];
+        const positionXY = (x, y) =>{
+            psX.push(x);
+            psY.push(y);
+            let xPochain = x , yProchain = y;
+
+            for (let i = 0; i < 30; i++) {
+                xPochain +=20;
+                yProchain += 10;
+                psX.push(xPochain);
+                psY.push(yProchain);
+            }
+            console.log(psX);
+            console.log(psY);
+        }
+        positionXY(10,10)
+    </script>
+</body>
+</html>
